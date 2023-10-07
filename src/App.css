@@ -1,0 +1,515 @@
+/* .App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  width: 10rem;
+  height: 20rem;
+  border: 2px solid black;
+  margin-top: 20rem;
+} */
+
+
+
+
+
+
+
+@media only screen and (min-width: 300px) {
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .App {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .Heading {
+    text-shadow: 1px 1px 2px rgb(64, 20, 100);
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    font-size: 2rem;
+  }
+
+  .input_container {
+    margin: 1.2rem 0.7rem;
+  }
+
+  .input_box {
+    width: 12rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0rem 0.5rem;
+    box-shadow: 2px 2px 3px;
+    background-color: whitesmoke;
+  }
+
+  .create_btn {
+    margin-left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+    font-size: 1.2rem;
+    background-color: #d249e8de;
+  }
+
+  .list_item {
+    display: flex;
+    width: 15rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    padding: 0.3rem 1rem;
+    background-color: #e2f067;
+    align-items: center;
+  }
+
+  .list_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .delete_icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.3rem;
+    background-color: transparent;
+  }
+
+  .fa-trash {
+    color: #461f60;
+    background-color: transparent;
+  }
+
+  .fa-trash:hover {
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 350px) {
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .App {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .Heading {
+    text-shadow: 1px 1px 2px rgb(64, 20, 100);
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    font-size: 2rem;
+  }
+
+  .input_container {
+    margin: 1.2rem 0.7rem;
+  }
+
+  .input_box {
+    width: 13rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0rem 0.5rem;
+    box-shadow: 2px 2px 3px;
+    background-color: whitesmoke;
+  }
+
+  .create_btn {
+    margin-left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+    font-size: 1.2rem;
+    background-color: #d249e8de;
+  }
+
+  .list_item {
+    display: flex;
+    width: 17rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    padding: 0.3rem 1rem;
+    background-color: #e2f067;
+    align-items: center;
+  }
+
+  .list_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .delete_icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.3rem;
+    background-color: transparent;
+  }
+
+  .fa-trash {
+    color: #461f60;
+    background-color: transparent;
+  }
+
+  .fa-trash:hover {
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .App {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .Heading {
+    text-shadow: 1px 1px 2px rgb(64, 20, 100);
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    font-size: 2rem;
+  }
+
+  .input_container {
+    margin: 1.2rem 0.7rem;
+  }
+
+  .input_box {
+    width: 15rem;
+    height: 2.2rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0rem 0.5rem;
+    box-shadow: 2px 2px 3px;
+    background-color: whitesmoke;
+  }
+
+  .create_btn {
+    margin-left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+    font-size: 1.2rem;
+    background-color: #d249e8de;
+  }
+
+  .list_item {
+    display: flex;
+    width: 19rem;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    padding: 0.3rem 1rem;
+    background-color: #e2f067;
+    align-items: center;
+  }
+
+  .list_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .delete_icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.3rem;
+    background-color: transparent;
+  }
+
+  .fa-trash {
+    color: #461f60;
+    background-color: transparent;
+  }
+
+  .fa-trash:hover {
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .App {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .Heading {
+    text-shadow: 1px 1px 2px rgb(64, 20, 100);
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    font-size: 2rem;
+  }
+
+  .input_container {
+    margin: 1.2rem 0.7rem;
+  }
+
+  .input_box {
+    width: 17rem;
+    height: 2.3rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0rem 0.5rem;
+    box-shadow: 2px 2px 3px;
+    background-color: whitesmoke;
+  }
+
+  .create_btn {
+    margin-left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+    font-size: 1.2rem;
+    background-color: #d249e8de;
+  }
+
+  .list_item {
+    display: flex;
+    width: 22rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    padding: 0.3rem 1rem;
+    background-color: #e2f067;
+    align-items: center;
+  }
+
+  .list_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .delete_icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.3rem;
+    background-color: transparent;
+  }
+
+  .fa-trash {
+    color: #461f60;
+    background-color: transparent;
+  }
+
+  .fa-trash:hover {
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .App {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(118, 238, 232);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .Heading {
+    text-shadow: 1px 1px 2px rgb(64, 20, 100);
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    font-size: 2rem;
+  }
+
+  .input_container {
+    margin: 1.2rem 0.7rem;
+  }
+
+  .input_box {
+    width: 19rem;
+    height: 2.3rem;
+    font-size: 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0rem 0.5rem;
+    box-shadow: 2px 2px 3px;
+    background-color: whitesmoke;
+  }
+
+  .create_btn {
+    margin-left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+    font-size: 1.2rem;
+    background-color: #d249e8de;
+  }
+
+  .list_item {
+    display: flex;
+    width: 26rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    padding: 0.3rem 1rem;
+    background-color: #e2f067;
+    align-items: center;
+  }
+
+  .list_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .delete_icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.3rem;
+    background-color: transparent;
+  }
+
+  .fa-trash {
+    color: #461f60;
+    background-color: transparent;
+  }
+
+  .fa-trash:hover {
+    cursor: pointer;
+  }
+}
